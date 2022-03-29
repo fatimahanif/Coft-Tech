@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navBar_column {
+    padding: 0;
+}
+
+#navBar {
+    background-color: #dbdbdb;
+}
+
+.navLink {
+    color: #1C5A6B;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0.2rem;
+}
+
+.navLink:hover {
+    color: #1C5A6B;
+    text-decoration: underline;
+}
+
+#navLogo {
+    /* width: 10%;
+    margin-left: 0%; */
+    color: #1C5A6B;
+}
+
+#navName {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+#logoLi a {
+    display: inline;
+}
+
+#sliderCol {
+    padding: 0;
+    height: 80vh;
+}
+
+#sliderCol img {
+    width: 100%;
+    margin: 0% 0%;
+}
