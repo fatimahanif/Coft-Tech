@@ -1,0 +1,210 @@
+h2{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h2 a{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h2 a:hover{
+    color: #1C5A6B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h5{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h5 a{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h5 a:hover{
+    color: #1C5A6B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#sliderCol {
+    padding: 0;
+    height: 80vh;
+}
+
+#sliderCol img {
+    max-width: 100%;
+    max-height: 80vh;
+    margin: 0% 0%;
+}
+
+#packagesRow{
+    text-align: center;
+}
+
+#packageSection{
+    padding: 3%;
+}
+
+.featuresList{
+    list-style-type: none;
+    list-style-image: url(../images/tick_icon.png);
+    text-align: left;
+}
+
+.packageCol{
+    padding: 2% 2% 1% 2%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px; */
+    background-color: #eee;
+}
+
+.packageCol2{
+    padding: 2% 2% 1% 2%;
+    border: 10px solid #fff;
+    /* box-shadow: 3px 3px; */
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.yearSpan{
+    font-size: 20px;
+}
+
+.signupBtn1{
+    background-color: #1C5A6B;
+    border-color: #1C5A6B;
+}
+
+.signupBtn1:hover{
+    background-color: #1C5A6B;
+    border-color: #1C5A6B;
+    text-decoration: underline;
+}
+
+.signupBtn2{
+    background-color: #E87724;
+    border-color: #E87724;
+}
+
+.signupBtn2:hover{
+    background-color: #E87724;
+    border-color: #E87724;
+    text-decoration: underline;
+}
+
+.packageName{
+    font-weight: 400;
+}
+
+.packageHr{
+    border-top: 1.5px solid #1C5A6B;
+}
+
+.packageHr2{
+    border-top: 1.5px solid #E87724;
+}
+
+.notAvailableFeature{
+    list-style-image: none;
+    color: #b4b4b4;
+}
+
+.packageCol, .packageCol2{
+    margin: 0%;
+    /* max-width: 22%; */
+}
+#packagesHeading{
+    margin: 3% 0%;
+}
+
+.indexInfo{
+    padding: 3%;
+}
+
+.indexInfoImage{
+    width: 100%;
+}
+
+.indexInfoHead{
+    margin-bottom: 5%;
+}
+
+.indexInfoLink{
+    text-align: right;
+}
+.indexInfoLink a{
+    color: #1C5A6B;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+.indexInfoLink a:hover{
+    color: #fff;
+    background-color: #1C5A6B;
+    font-weight: 400;
+    border-width: 2px;
+    text-decoration: none;
+}
+
+.indexInfoLink2{
+    text-align: right;
+    margin-right: 15%;
+}
+.indexInfoLink2 a{
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    color: #1C5A6B;
+}
+.indexInfoLink2 a:hover{
+    color: #fff;
+    background-color: #1C5A6B;
+    font-weight: 400;
+    border-width: 2px;
+    text-decoration: none;
+}
+
+#indexGalleryCol{
+    border-right: 1px solid #1C5A6B;
+}
+
+#indexBlogsCol{
+    border-left: 1px solid #1C5A6B;
+}
+
+#indexGalleryCol, #indexBlogsCol{
+    padding: 2%;
+}
+
+.indexContact{
+    text-align: left;
+}
+
+#indexMap{
+    border: 0;
+    width: 90%;
+    height: 90%;
+}
+
+.indexGalleryHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.indexGalleryLink{
+    text-align: right;
+}
+
+.btnLink{
+    border: 1px solid #1C5A6B;
+    padding: 8px;
+    border-radius: 3%;
+}
+
+.card img{
+    width: 90%;
+}
+
+.overflowDiv{
+    height: 60vh;
+    overflow-y: auto;
+}

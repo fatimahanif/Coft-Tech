@@ -1,0 +1,50 @@
+h5{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h5 a{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h5 a:hover{
+    color: #1C5A6B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.eventsRow{
+    margin: 3%;
+}
+.eventCol{
+    padding: 2%;
+    /* background-color: #eee;
+    border: 0px solid #eee;
+    border-radius: 4%;
+    margin: 0.5%; */
+}
+.eventCol p{
+    font-size: 18px;
+}
+.eventCol a{
+    color: #000;
+}
+.eventCol a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.eventThumbnail{
+    width: 100%;
+    border-radius: 3%;
+}
+.eventName{
+    text-align: center;
+    margin-top: 3%;
+}
+#eventHeading{
+    text-align: center;
+}
+
+
+.card img{
+    width: 90%;
+}

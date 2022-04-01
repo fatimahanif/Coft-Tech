@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 * {
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #navBar_column {
@@ -8,43 +9,84 @@
 }
 
 #navBar {
-    background-color: #dbdbdb;
+    /* background-color: #dbdbdb; */
+    background-color: #1C5A6B;
 }
 
 .navLink {
-    color: #1C5A6B;
-    font-weight: 600;
+    /* color: #1C5A6B; */
+    color: #fff;
+    font-weight: 400;
     font-size: 20px;
     margin: 0 0.2rem;
 }
 
 .navLink:hover {
-    color: #1C5A6B;
+    /* color: #1C5A6B; */
+    color: #fff;
     text-decoration: underline;
 }
 
 #navLogo {
-    /* width: 10%;
-    margin-left: 0%; */
     color: #1C5A6B;
+}
+
+#navExpandButton{
+    /* color: #fff; */
+    background-color: #fff;
 }
 
 #navName {
     font-size: 25px;
     padding: 0;
     margin: 0;
+    font-weight: 600;
+    color: #1C5A6B;
 }
 
 #logoLi a {
     display: inline;
 }
 
-#sliderCol {
-    padding: 0;
-    height: 80vh;
+
+#footer{
+    background-color: #1C5A6B;
+    margin-top: 3%;
+    color: #fff;
 }
 
-#sliderCol img {
-    width: 100%;
-    margin: 0% 0%;
+.copyrightLink{
+    background-color: #164552;
+}
+
+.copyrightLink a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.copyrightLink a:hover{
+    color: #b4b4b4;
+    text-decoration: underline;
+}
+
+#footerCol{
+    margin: 0;
+    padding: 0;
+}
+
+#socialmediaDiv{
+    padding: 2%;
+}
+
+#socialmediaDiv a{
+    color: #fff;
+}
+
+#socialmediaDiv a:hover{
+    color: #b4b4b4;
+}
+
+.sectionHr{
+    border-top: 1px solid #1C5A6B;
+    border-radius: 5px;
 }
