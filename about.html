@@ -8,6 +8,8 @@
     <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index_styles.css">
+    <link rel="stylesheet" href="css/about_styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -45,56 +47,216 @@
 
             <div class="col-12" id="navBar_column">
 
-                <nav id="navBar" class="navbar justify-content-center navbar-expand-sm sticky-top">
+                <nav id="navBar" class="navbar justify-content-center navbar-expand-md sticky-top navbar-dark">
 
-                    <ul class="navbar-nav justify-content-center align-self-center">
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#navbarDiv" id="navExpandButton">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <!-- <li class="nav-item align-self-center" id="logoLi">
-                            <a class="nav-link align-self-center" href="index.html">
-                                <img class="col-2" src="images/logo_without_name.png" alt="company logo" id="navLogo">
-                            </a>
-                            <a class="nav-link navLink align-self-center" id="navName" href="index.html">
-                                Coft-Tech
-                            </a>
-                        </li> -->
+                    <div id="navbarDiv" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav justify-content-center align-self-center">
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="index.html">Home</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="index.html">Home</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="about.html">About</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="about.html">About</a>
+                            </li>
 
-                        <li class="nav-item align-self-center dropdown">
-                            <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                            </div>
-                        </li>
+                            <li class="nav-item align-self-center dropdown">
+                                <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="service_details.html">Software and Project Management</a>
+                                    <a class="dropdown-item" href="service_details.html">Email and Video Conferencing</a>
+                                    <a class="dropdown-item" href="service_details.html">Video and Photo Editing Software</a>
+                                </div>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="gallery.html">Gallery</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="gallery.html">Gallery</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="blog.html">Blog</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="blog.html">Blog</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
             </div>
         </div>
 
+        <!--about info-->
+        <div class="row indexInfo">
+            <div class="col-md-6 col-sm-12 align-self-center">
+                <h2 class="indexInfoHead">
+                        About Us
+                </h2>
+                <p>
+                    Coft-Tech is a renowned IT company majorly working on 
+                    Software as a Service model (SaaS). We majorly deal in IT and sell 
+                    our IT services as well as different IT software products following a SaaS model.
+                </p>
+                <p>
+                    Software as a service is a software licensing and delivery model in which software is 
+                    licensed on a subscription basis and is centrally hosted. SaaS is also known as "on-demand 
+                    software" and Web-based/Web-hosted software.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center align-self-center">
+                <img alt="saas model image" src="images/saas_index.png" id="saasImage" class="indexInfoImage">
+            </div>
+        </div>
+
+        <hr class="sectionHr">
+
+        <!--mission info-->
+        <div class="row indexInfo">
+            <div class="col-md-6 col-sm-12 text-center align-self-center">
+                <img alt="saas model image" src="images/mission_img.jpg" id="servicesImage" class="indexInfoImage">
+            </div>
+            <div class="col-md-6 col-sm-12 align-self-center ">
+                <h2 class="indexInfoHead">
+                    Our mission
+                </h2>
+                <p>
+                    Our mission is to provide quality services at a minimum and affordable rate to help you 
+                    acheive efficiency and reliability. We strive to make your workplace better and more organized 
+                    by providing you with all the good guality service you need.
+                </p>
+                <p>
+                    Coft-Tech employess work day and night to make their products and customer services better. The 
+                    customer satisfaction rate of our coompany is very high and many companies rely on our IT 
+                    services for their management and operation.
+                </p>
+            </div>
+        </div>
+
+        <hr class="sectionHr">
+
+        <!--team info-->
+        <div class="row indexInfo align-self-center text-center">
+            <div class="col-12 headText">
+                <h2>Our Team</h2>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center">
+                    <div>
+                        <img class="card-img-top teamImage" src="images/user.png" alt="team member image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Chief Executive Officer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center">
+                    <div>
+                        <img class="card-img-top teamImage" src="images/user.png" alt="team member image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Senior Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center">
+                    <div>
+                        <img class="card-img-top teamImage" src="images/user.png" alt="team member image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Project Manager</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center">
+                    <div>
+                        <img class="card-img-top teamImage" src="images/user.png" alt="team member image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Quality Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="sectionHr">
+
+        <!--FAQs-->
+        <div class="row indexInfo">
+            
+            <div class="col-12 headText">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="col-12 ind">
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Question Statement
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur, molestiae praesentium quia saepe impedit soluta ab, facilis veniam repudiandae adipisci ea asperiores labore fugiat quidem exercitationem velit architecto minima.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Question Statement
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati voluptate voluptas tempore soluta officia error voluptates iure fuga magni excepturi! Nihil quod quae totam excepturi maiores vero exercitationem ea nisi.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Question Statement
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere earum, corrupti assumenda eius asperiores eum maxime sit laboriosam commodi, accusamus pariatur? Facere reprehenderit laudantium praesentium, excepturi omnis officiis impedit repellendus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
         <!-- Footer -->
-        <div class="row" id="footer">
+        <div class="row " id="footer">
             <div class="col-12" id="footerCol">
                 <footer class="page-footer text-center">
 

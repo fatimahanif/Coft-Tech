@@ -46,56 +46,61 @@
 
             <div class="col-12" id="navBar_column">
 
-                <nav id="navBar" class="navbar justify-content-center navbar-expand-sm sticky-top">
+                <nav id="navBar" class="navbar justify-content-center navbar-expand-md sticky-top navbar-dark">
 
-                    <ul class="navbar-nav justify-content-center align-self-center">
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#navbarDiv" id="navExpandButton">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <!-- <li class="nav-item align-self-center" id="logoLi">
-                            <a class="nav-link align-self-center" href="index.html">
-                                <img class="col-2" src="images/logo_without_name.png" alt="company logo" id="navLogo">
-                            </a>
-                            <a class="nav-link navLink align-self-center" id="navName" href="index.html">
-                                Coft-Tech
-                            </a>
-                        </li> -->
+                    <div id="navbarDiv" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav justify-content-center align-self-center">
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="index.html">Home</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="index.html">Home</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="about.html">About</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="about.html">About</a>
+                            </li>
 
-                        <li class="nav-item align-self-center dropdown">
-                            <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                            </div>
-                        </li>
+                            <li class="nav-item align-self-center dropdown">
+                                <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="service_details.html">Software and Project Management</a>
+                                    <a class="dropdown-item" href="service_details.html">Email and Video Conferencing</a>
+                                    <a class="dropdown-item" href="service_details.html">Video and Photo Editing Software</a>
+                                </div>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="gallery.html">Gallery</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="gallery.html">Gallery</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="blog.html">Blog</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="blog.html">Blog</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
             </div>
         </div>
 
         <!--event images thumbnails-->
-        
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="headText">Event Gallery</h2>
+            </div>
+        </div>
+
         <div class="row eventsRow">
             <div class="card mb-3 align-self-center col-md-5 col-sm-11">
                 <div class="row no-gutters">

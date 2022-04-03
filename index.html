@@ -47,41 +47,49 @@
 
             <div class="col-12" id="navBar_column">
 
-                <nav id="navBar" class="navbar justify-content-center navbar-expand-sm sticky-top">
+                <nav id="navBar" class="navbar justify-content-center navbar-expand-md sticky-top navbar-dark">
 
-                    <ul class="navbar-nav justify-content-center align-self-center">
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#navbarDiv" id="navExpandButton">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="index.html">Home</a>
-                        </li>
+                    <div id="navbarDiv" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav justify-content-center align-self-center">
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="about.html">About</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="index.html">Home</a>
+                            </li>
 
-                        <li class="nav-item align-self-center dropdown">
-                            <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                            </div>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="about.html">About</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="gallery.html">Gallery</a>
-                        </li>
+                            <li class="nav-item align-self-center dropdown">
+                                <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="service_details.html">Software and Project Management</a>
+                                    <a class="dropdown-item" href="service_details.html">Email and Video Conferencing</a>
+                                    <a class="dropdown-item" href="service_details.html">Video and Photo Editing Software</a>
+                                </div>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="blog.html">Blog</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="gallery.html">Gallery</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="blog.html">Blog</a>
+                            </li>
+
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
             </div>
         </div>
@@ -122,8 +130,6 @@
                 </div>
             </div>
         </div>
-
-        <hr class="sectionHr">
 
         <!--Info-->
         <!--index about info-->
@@ -173,10 +179,9 @@
                 </p>
                 <p>List of Services:</p>
                 <ul>
-                    <li>Service name</li>
-                    <li>Service name</li>
-                    <li>Service name</li>
-                    <li>Service name</li>
+                    <li>Software and Project Management</li>
+                    <li>Email and Video Confrencing</li>
+                    <li>Video and Photo Editing Softwares</li>
                 </ul>
                 <p class="indexInfoLink2">
                     <a href="services.html" class="btnLink">
@@ -213,11 +218,11 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 packageCol2" id="standardPackage">
+                <div class="col-sm-6 col-md-4 col-lg-3 packageCol" id="standardPackage">
                     <h2 class="packageName">Standard</h2>
                     <h3>$100<span class="yearSpan">/YR</span></h3>
-                    <button class="btn btn-primary signupBtn2">Sign Up</button>
-                    <hr class="packageHr2">
+                    <button class="btn btn-primary signupBtn1">Sign Up</button>
+                    <hr class="packageHr">
                     <ul class="featuresList">
                         <li>5 users</li>
                         <li>10 devices</li>
@@ -245,11 +250,11 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 packageCol2" id="premiumPackage">
+                <div class="col-sm-6 col-md-4 col-lg-3 packageCol" id="premiumPackage">
                     <h2 class="packageName">Premium</h2>
                     <h3>$600<span class="yearSpan">/YR</span></h3>
-                    <button class="btn btn-primary signupBtn2">Sign Up</button>
-                    <hr class="packageHr2">
+                    <button class="btn btn-primary signupBtn1">Sign Up</button>
+                    <hr class="packageHr">
                     <ul class="featuresList">
                         <li>Unlimited users</li>
                         <li>Unlimited devices</li>

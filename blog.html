@@ -8,6 +8,7 @@
     <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blog_styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -45,51 +46,162 @@
 
             <div class="col-12" id="navBar_column">
 
-                <nav id="navBar" class="navbar justify-content-center navbar-expand-sm sticky-top">
+                <nav id="navBar" class="navbar justify-content-center navbar-expand-md sticky-top navbar-dark">
 
-                    <ul class="navbar-nav justify-content-center align-self-center">
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#navbarDiv" id="navExpandButton">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <!-- <li class="nav-item align-self-center" id="logoLi">
-                            <a class="nav-link align-self-center" href="index.html">
-                                <img class="col-2" src="images/logo_without_name.png" alt="company logo" id="navLogo">
-                            </a>
-                            <a class="nav-link navLink align-self-center" id="navName" href="index.html">
-                                Coft-Tech
-                            </a>
-                        </li> -->
+                    <div id="navbarDiv" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav justify-content-center align-self-center">
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="index.html">Home</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="index.html">Home</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="about.html">About</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="about.html">About</a>
+                            </li>
 
-                        <li class="nav-item align-self-center dropdown">
-                            <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                            </div>
-                        </li>
+                            <li class="nav-item align-self-center dropdown">
+                                <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="service_details.html">Software and Project Management</a>
+                                    <a class="dropdown-item" href="service_details.html">Email and Video Conferencing</a>
+                                    <a class="dropdown-item" href="service_details.html">Video and Photo Editing Software</a>
+                                </div>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="gallery.html">Gallery</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="gallery.html">Gallery</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="blog.html">Blog</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="blog.html">Blog</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
+            </div>
+        </div>
+
+        <!--blogs-->
+        <div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 id="headText">Blogs</h2>
+                </div>
+            </div>
+    
+            <div class="row eventsRow">
+                <div class="col-md-6 col-sm-12 cardCol">
+                    <div class="card mb-3 align-self-center col-10 offset-1">
+                        <div class="row no-gutters">
+                            <div class="col-md-4  align-self-center text-center">
+                              <img src="images/blog_img2.png" alt="blog image">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="blog_detail.html">Blog Title</a></h5>
+                                <p class="card-text">
+                                    This is a brief description about what this blog is about so that the user can have an 
+                                    idea before opening the blog.  
+                                  </p>
+                                <p class="card-text"><small class="text-muted">Fatima Hanif | 01/04/2022 | Web Apps</small></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-sm-12 cardCol">
+                    <div class="card mb-3 align-self-center col-10 offset-1">
+                        <div class="row no-gutters">
+                            <div class="col-md-4  align-self-center text-center">
+                              <img src="images/blog_img.jpg" alt="blog image">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="blog_detail.html">Blog Title</a></h5>
+                                <p class="card-text">
+                                    This is a brief description about what this blog is about so that the user can have an 
+                                    idea before opening the blog.  
+                                  </p>
+                                <p class="card-text"><small class="text-muted">Fatima Hanif | 01/04/2022 | Mobile Apps</small></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-sm-12 cardCol">
+                    <div class="card mb-3 align-self-center col-10 offset-1">
+                        <div class="row no-gutters">
+                            <div class="col-md-4  align-self-center text-center">
+                              <img src="images/blog_img3.jpg" alt="blog image">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="blog_detail.html">Blog Title</a></h5>
+                                <p class="card-text">
+                                    This is a brief description about what this blog is about so that the user can have an 
+                                    idea before opening the blog.  
+                                  </p>
+                                <p class="card-text"><small class="text-muted">Fatima Hanif | 01/04/2022 | Project Management</small></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-sm-12 cardCol">
+                    <div class="card mb-3 align-self-center col-10 offset-1">
+                        <div class="row no-gutters">
+                            <div class="col-md-4  align-self-center text-center">
+                              <img src="images/blog_img2.png" alt="blog image">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="blog_detail.html">Blog Title</a></h5>
+                                <p class="card-text">
+                                    This is a brief description about what this blog is about so that the user can have an 
+                                    idea before opening the blog.  
+                                  </p>
+                                <p class="card-text"><small class="text-muted">Fatima Hanif | 01/04/2022 | Web Apps</small></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-sm-12 cardCol">
+                    <div class="card mb-3 align-self-center col-10 offset-1">
+                        <div class="row no-gutters">
+                            <div class="col-md-4  align-self-center text-center">
+                              <img src="images/blog_img.jpg" alt="blog image">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title"><a href="blog_detail.html">Blog Title</a></h5>
+                                <p class="card-text">
+                                    This is a brief description about what this blog is about so that the user can have an 
+                                    idea before opening the blog.  
+                                  </p>
+                                <p class="card-text"><small class="text-muted">Fatima Hanif | 01/04/2022 | Desktop Apps</small></p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
 

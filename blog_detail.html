@@ -8,14 +8,13 @@
     <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/index_styles.css">
-    <link rel="stylesheet" href="css/contact_styles.css">
+    <link rel="stylesheet" href="css/blog_styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="javascript/scripts.js"></script>
-    <title>Coft-Tech | Contact</title>
+    <title>Coft-Tech | Blog</title>
 </head>
 
 <body>
@@ -93,74 +92,66 @@
                 </nav>
             </div>
         </div>
-        
-        <!--contact row-->
-        <div class="row indexInfo">
-            <div class="col-lg-6 col-md-12 align-self-center">
-                <h2 class="indexInfoHead">
-                    <a href="contact.html">
-                        Contact Us
-                    </a>
-                </h2>
 
+        <!--blog details-->
+        <div class="row">
+            <div class="col-12" id="blogHead">
+                <h2>Disciplined Agile 5.5 Released</h2>
+                <p>Fatima Hanif | 01/04/2022 | Project Management</p>
+            </div>
+
+            <div class="col-12" id="blogText">
+                <p>On March 31<sup>st</sup>, 2022 we released&nbsp;Disciplined Agile (DA) v5.5. The focus of this release was to:</p>
+                <ol>
+                    <li><strong>Update several process blades</strong>:
+                
+                    <ul>
+                        <li>Portfolio Management: We added the Address Portfolio Risk decision point to capture strategies for aggregating and addressing risk at the portfolio level.</li>
+                        <li>Program Management: Added the Address Program Risk and Measure Program decision points which were previously options of Govern the Program.&nbsp;Address Program Risk is similar to Address Portfolio Risk, albeit at a different level, and Measure Program focuses on how to aggregate and work with metrics at the program level. We also refactored the Organize Teams decision point, pulling out a new Organize Program Leadership decision point to focus on those options and making Organize Teams an ordered list of strategies.</li>
+                        <li>Product Management: Added the&nbsp;Citizen Development option to the Evolve Vision decision point in our ongoing work to support the great work going on in the CD space.</li>
+                        <li>Vendor Management: Added the Intake Requests decision point to capture strategies to bring work into the VM team. &nbsp;We&nbsp;renamed the Choose Commercial Model decision point to Choose Contract Model to increase consistency within this blade.</li>
+                    </ul>
+                    </li>
+                    <li><strong>Update several process goals</strong>:
+                    <ul>
+                        <li>Accelerate Value Delivery: We added the three new decision points: Optimize Team, Optimize Work, and Optimize Flow. As the names imply, they capture strategies to optimize how you have organized your team, your overall work strategy, and how to improve flow within your team and with teams that you collaborate with. These decision points capture great strategies for accelerate value delivery by your team.</li>
+                        <li>Align With Enterprise Direction: In recent releases of DA we've added significant support for metrics, and recently we realized that we haven't explicitly called out strategies to align your team's measurement strategy with areas of the organization that you are part of. &nbsp;As a result we added the Align Measurement Strategy decision point.</li>
+                        <li>Form Team: We renamed the Structure of Team strategy&nbsp;Internal Open Source to Innersource to reflect current naming conventions for that strategy.</li>
+                    </ul>
+                    </li>
+                    <li><strong>Add and update reference links to existing techniques</strong>. This is an ongoing effort and there is more to come.</li>
+                    <li><strong>Update descriptions of techniques</strong>. It is also an ongoing effort to keep our material up to date.</li>
+                </ol>
+            </div>
+
+            <hr class="sectionHr">
+
+            <div class="col-12" id="commentsDiv">
+                <h5>Leave A Comment: </h5>
                 <form id="contactForm">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                                <label for="firstName">First Name: </label>
+                                <label for="firstName">Name: </label>
                                 <input id="firstName" type="text" class="form-control" required autocomplete="off">
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <label for="lastName">Last Name: </label>
-                                <input id="lastName" type="text" class="form-control" autocomplete="off">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label for="email">Email: </label>
                                 <input id="email" type="email" class="form-control" required autocomplete="off">
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <label for="phoneNum">Phone Number: </label>
-                                <input id="phoneNum" type="tel" class="form-control" autocomplete="off">
-                            </div>
-                        </div>
                     </div>
+
                     <div class="form-group">
-                        <label for="messageArea">Message: </label>
-                        <textarea class="form-control" id="messageArea" rows="3" placeholder="Write a message" required></textarea>
+                        <label for="messageArea">Comment: </label>
+                        <textarea class="form-control" id="messageArea" rows="4" placeholder="Write a comment" required></textarea>
                     </div>
                     <div class="text-right">
-                        <input class="btn btn-primary signupBtn1" id="sendBtn" type="submit" value="Send Message">
+                        <input class="btn btn-primary submitBtn" id="submitBtn" type="submit" value="Add Comment">
                     </div>
                 </form>
-
-
-                <div id="contactDiv">
-                    <h5 id="visitHead">
-                        Visit or Contact Now:
-                    </h5>
-                    
-                    <address class="indexInfoLink indexContact">
-                        COMSATS University Islamabad <br>
-                        Park Rd, Islamabad, Islamabad Capital Territory 45550 <br>
-                        Telephone: +92-51-1234567 <br>
-                        Email: <a href="mailto:abc@example.com">abc@example.com</a> <br> <br>
-                    </address>
-                </div>
-                
-            </div>
-
-            <div class="col-lg-6 col-md-12 text-center align-self-center" id="mapDiv">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.205733144521!2d73.15440461468819!3d33.651830746172834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfea4aee5bdf8f%3A0xe6b55e05d462beb1!2sCOMSATS%20University%20Islamabad!5e0!3m2!1sen!2s!4v1648783383462!5m2!1sen!2s"
-                    id="contactMap" allowfullscreen="" loading="" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
             </div>
         </div>
 

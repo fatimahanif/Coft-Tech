@@ -8,6 +8,8 @@
     <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index_styles.css">
+    <link rel="stylesheet" href="css/services_styles.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -45,52 +47,143 @@
 
             <div class="col-12" id="navBar_column">
 
-                <nav id="navBar" class="navbar justify-content-center navbar-expand-sm sticky-top">
+                <nav id="navBar" class="navbar justify-content-center navbar-expand-md sticky-top navbar-dark">
 
-                    <ul class="navbar-nav justify-content-center align-self-center">
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" data-target="#navbarDiv" id="navExpandButton">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <!-- <li class="nav-item align-self-center" id="logoLi">
-                            <a class="nav-link align-self-center" href="index.html">
-                                <img class="col-2" src="images/logo_without_name.png" alt="company logo" id="navLogo">
-                            </a>
-                            <a class="nav-link navLink align-self-center" id="navName" href="index.html">
-                                Coft-Tech
-                            </a>
-                        </li> -->
+                    <div id="navbarDiv" class="collapse navbar-collapse justify-content-center">
+                        <ul class="navbar-nav justify-content-center align-self-center">
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="index.html">Home</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="index.html">Home</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="about.html">About</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="about.html">About</a>
+                            </li>
 
-                        <li class="nav-item align-self-center dropdown">
-                            <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
-                                Services
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                            </div>
-                        </li>
+                            <li class="nav-item align-self-center dropdown">
+                                <a class="nav-link navLink dropdown-toggle " data-toggle="dropdown" href="services.html">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="service_details.html">Software and Project Management</a>
+                                    <a class="dropdown-item" href="service_details.html">Email and Video Conferencing</a>
+                                    <a class="dropdown-item" href="service_details.html">Video and Photo Editing Software</a>
+                                </div>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="gallery.html">Gallery</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="gallery.html">Gallery</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="blog.html">Blog</a>
-                        </li>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="blog.html">Blog</a>
+                            </li>
 
-                        <li class="nav-item align-self-center">
-                            <a class="nav-link navLink" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item align-self-center">
+                                <a class="nav-link navLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
             </div>
+        </div>
+
+        <!--services details-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="serviceHead">Services</h2>
+            </div>
+
+            <div class="col-12">
+                <div class="row indexInfo">
+                    <div class="col-md-6 col-sm-12 align-self-center">
+                        <h4 class="indexInfoHead">
+                            <a href="service_details.html">Sotware and Project Management Tools</a>
+                        </h4>
+                        <p>
+                            Explore a wide range of our project managemnet tools that will make the managemnet of projects in your organization easier.
+                        </p>
+                        <p>List of Products:</p>
+                        <ul>
+                            <li>Project Organized</li>
+                            <li>DocumentAssist</li>
+                            <li>DrawIt</li>
+                        </ul>
+                        <p class="indexInfoLink">
+                            <a href="service_details.html" class="btnLink">
+                               View Details >>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-center align-self-center">
+                        <img alt="project managemnet tool image" src="images/project_managment_tool.png" id="projectMngmtTool" class="indexInfoImage">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="sectionHr">
+
+            <div class="col-12">
+                <div class="row indexInfo">
+                    <div class="col-md-6 col-sm-12 text-center align-self-center">
+                        <img alt="Coft-Meet tool image" src="images/video_conferencing.jpg" id="videoConferencing" class="indexInfoImage">
+                    </div>
+                    <div class="col-md-6 col-sm-12 align-self-center">
+                        <h4 class="indexInfoHead">
+                            <a href="service_details.html">Email and Video Conferencing</a>
+                        </h4>
+                        <p>
+                            Explore a wide range of our email and video conferencing tools that will make the communication of projects in your organization easier.
+                        </p>
+                        <p>List of Products:</p>
+                        <ul>
+                            <li>Coft-Mail</li>
+                            <li>Coft-Meet</li>
+                            <li>Coft-Chat</li>
+                        </ul>
+                        <p class="indexInfoLink">
+                            <a href="service_details.html" class="btnLink">
+                               View Details >>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="sectionHr">
+
+            <div class="col-12">
+                <div class="row indexInfo">
+                    <div class="col-md-6 col-sm-12 align-self-center">
+                        <h4 class="indexInfoHead">
+                            <a href="service_details.html">Video and Photo Editing Software</a>
+                        </h4>
+                        <p>
+                            Explore a wide range of our photo and vidro editing softwares that will make editing of videos and photos more fun and easy.
+                        </p>
+                        <p>List of Products:</p>
+                        <ul>
+                            <li>Video Work</li>
+                            <li>Photo Plus</li>
+                        </ul>
+                        <p class="indexInfoLink">
+                            <a href="service_details.html" class="btnLink">
+                               View Details >>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-center align-self-center">
+                        <img alt="viedo editing tool image" src="images/video_editing.jpg" id="videoEdit" class="indexInfoImage">
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!-- Footer -->

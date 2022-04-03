@@ -55,7 +55,32 @@ h5 a:hover{
     text-align: center;
 }
 
-
 .card img{
     width: 90%;
+}
+
+
+
+#blogHead{
+    padding: 2%;
+    color: #1C5A6B;
+}
+
+#blogText{
+    padding: 0% 5%;
+}
+
+#commentsDiv{
+    padding: 0% 3%;
+}
+
+.submitBtn{
+    background-color: #1C5A6B;
+    border-color: #1C5A6B;
+}
+
+.submitBtn:hover{
+    background-color: #1C5A6B;
+    border-color: #1C5A6B;
+    text-decoration: underline;
 }

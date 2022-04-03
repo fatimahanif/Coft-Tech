@@ -1,0 +1,27 @@
+.indexContact{
+    text-align: left;
+}
+
+#mapDiv{
+    height: 500px;
+}
+
+#contactMap{
+    border: 0;
+    width: 90%;
+    height: 100%;
+}
+
+#contactForm{
+    margin: 3%;
+}
+
+#visitHead{
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 576px){
+    #mapDiv{
+        height: 300px;
+    }
+}

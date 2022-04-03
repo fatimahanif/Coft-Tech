@@ -1,0 +1,17 @@
+h4{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h4 a{
+    color: #1C5A6B;
+    font-weight: 600;
+}
+h4 a:hover{
+    color: #1C5A6B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#serviceHead{
+    padding: 3% 0% 1% 0%;
+}

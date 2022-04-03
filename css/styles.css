@@ -15,7 +15,7 @@
 
 .navLink {
     /* color: #1C5A6B; */
-    color: #fff;
+    color: #fff !important;
     font-weight: 400;
     font-size: 20px;
     margin: 0 0.2rem;
@@ -31,17 +31,17 @@
     color: #1C5A6B;
 }
 
-#navExpandButton{
+/* #navExpandButton{
     /* color: #fff; */
-    background-color: #fff;
-}
+    /* background-color: #fff; */
+/* } */ 
 
 #navName {
     font-size: 25px;
     padding: 0;
     margin: 0;
     font-weight: 600;
-    color: #1C5A6B;
+    color: #1C5A6B !important;
 }
 
 #logoLi a {
@@ -89,4 +89,5 @@
 .sectionHr{
     border-top: 1px solid #1C5A6B;
     border-radius: 5px;
+    width: 80%;
 }
